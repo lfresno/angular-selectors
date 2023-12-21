@@ -6,6 +6,13 @@ export enum Region{
   Oceania = 'Oceania'
 }
 
+//solo guarda las cosas que nos interesan
+//podríamos borrar lo demás ?
+export interface SmallCountry {
+  name: string;
+  cca3: string;
+  borders: string[];
+}
 
 export interface Country {
   name:         Name;
